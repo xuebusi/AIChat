@@ -9,7 +9,7 @@ import SwiftUI
 
 extension ChatView {
     class ViewModel: ObservableObject {
-        @Published var messages: [Message] = [Message(id: UUID(), role: .system, content: "You are coding assistand. You will help me understand how to write only Swift code. You do not have enough information about other languages to give advice so avoid doing so at ALL times", createAt: Date())]
+        @Published var messages: [Message] = [Message(id: UUID(), role: .system, content: "你是一个万能助理，可以帮我解决各种问题。请始终使用简体中文回答我。", createAt: Date())]
         @Published var currentInput: String = ""
         @Published var isReceiving: Bool = false
         
