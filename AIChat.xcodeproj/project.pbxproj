@@ -8,24 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		2B358C862B00F8EF0064E2CE /* AIChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B358C852B00F8EF0064E2CE /* AIChatApp.swift */; };
-		2B358C882B00F8EF0064E2CE /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B358C872B00F8EF0064E2CE /* ChatView.swift */; };
+		2B358C882B00F8EF0064E2CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B358C872B00F8EF0064E2CE /* ContentView.swift */; };
 		2B358C8A2B00F8F00064E2CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B358C892B00F8F00064E2CE /* Assets.xcassets */; };
 		2B358C8D2B00F8F00064E2CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B358C8C2B00F8F00064E2CE /* Preview Assets.xcassets */; };
 		2B358C942B00F9030064E2CE /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B358C932B00F9030064E2CE /* ChatViewModel.swift */; };
 		2B358C972B00FA4A0064E2CE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2B358C962B00FA4A0064E2CE /* Alamofire */; };
 		2B358C992B00FA6F0064E2CE /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B358C982B00FA6F0064E2CE /* OpenAIService.swift */; };
 		2B358C9B2B00FE490064E2CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B358C9A2B00FE490064E2CE /* Constants.swift */; };
+		2B6911132B072CE900B3B22E /* SpeechTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6911122B072CE900B3B22E /* SpeechTextView.swift */; };
+		2B6911152B072F0300B3B22E /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6911142B072F0300B3B22E /* KeyboardView.swift */; };
+		2B6911172B072F5100B3B22E /* InputBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6911162B072F5100B3B22E /* InputBoxView.swift */; };
+		2B69111A2B0731F100B3B22E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6911192B0731F100B3B22E /* Message.swift */; };
+		2B8189AF2B074C3F00136920 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8189AE2B074C3F00136920 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B358C822B00F8EF0064E2CE /* AIChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B358C852B00F8EF0064E2CE /* AIChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatApp.swift; sourceTree = "<group>"; };
-		2B358C872B00F8EF0064E2CE /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		2B358C872B00F8EF0064E2CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B358C892B00F8F00064E2CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B358C8C2B00F8F00064E2CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B358C932B00F9030064E2CE /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		2B358C982B00FA6F0064E2CE /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		2B358C9A2B00FE490064E2CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2B6911122B072CE900B3B22E /* SpeechTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechTextView.swift; sourceTree = "<group>"; };
+		2B6911142B072F0300B3B22E /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		2B6911162B072F5100B3B22E /* InputBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBoxView.swift; sourceTree = "<group>"; };
+		2B6911182B07304F00B3B22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2B6911192B0731F100B3B22E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		2B8189AE2B074C3F00136920 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +70,13 @@
 		2B358C842B00F8EF0064E2CE /* AIChat */ = {
 			isa = PBXGroup;
 			children = (
+				2B8189AD2B074BFC00136920 /* Common */,
+				2B8189AC2B074BEC00136920 /* Service */,
+				2B8189AB2B074BC700136920 /* View */,
+				2B8189AA2B074BBD00136920 /* ViewModel */,
+				2B8189A92B074BB300136920 /* Model */,
+				2B6911182B07304F00B3B22E /* Info.plist */,
 				2B358C852B00F8EF0064E2CE /* AIChatApp.swift */,
-				2B358C872B00F8EF0064E2CE /* ChatView.swift */,
-				2B358C932B00F9030064E2CE /* ChatViewModel.swift */,
-				2B358C982B00FA6F0064E2CE /* OpenAIService.swift */,
-				2B358C9A2B00FE490064E2CE /* Constants.swift */,
 				2B358C892B00F8F00064E2CE /* Assets.xcassets */,
 				2B358C8B2B00F8F00064E2CE /* Preview Content */,
 			);
@@ -76,6 +89,50 @@
 				2B358C8C2B00F8F00064E2CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B8189A92B074BB300136920 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B6911192B0731F100B3B22E /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B8189AA2B074BBD00136920 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2B358C932B00F9030064E2CE /* ChatViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2B8189AB2B074BC700136920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B358C872B00F8EF0064E2CE /* ContentView.swift */,
+				2B8189AE2B074C3F00136920 /* ChatView.swift */,
+				2B6911122B072CE900B3B22E /* SpeechTextView.swift */,
+				2B6911142B072F0300B3B22E /* KeyboardView.swift */,
+				2B6911162B072F5100B3B22E /* InputBoxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B8189AC2B074BEC00136920 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2B358C982B00FA6F0064E2CE /* OpenAIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2B8189AD2B074BFC00136920 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2B358C9A2B00FE490064E2CE /* Constants.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B358C9B2B00FE490064E2CE /* Constants.swift in Sources */,
-				2B358C882B00F8EF0064E2CE /* ChatView.swift in Sources */,
+				2B6911172B072F5100B3B22E /* InputBoxView.swift in Sources */,
+				2B8189AF2B074C3F00136920 /* ChatView.swift in Sources */,
+				2B6911132B072CE900B3B22E /* SpeechTextView.swift in Sources */,
+				2B69111A2B0731F100B3B22E /* Message.swift in Sources */,
+				2B6911152B072F0300B3B22E /* KeyboardView.swift in Sources */,
+				2B358C882B00F8EF0064E2CE /* ContentView.swift in Sources */,
 				2B358C942B00F9030064E2CE /* ChatViewModel.swift in Sources */,
 				2B358C862B00F8EF0064E2CE /* AIChatApp.swift in Sources */,
 				2B358C992B00FA6F0064E2CE /* OpenAIService.swift in Sources */,
@@ -295,8 +357,11 @@
 				DEVELOPMENT_TEAM = 73VA8W4WNH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIChat/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AIChat;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "我们需要访问您的麦克风来进行语音识别";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "我们使用语音识别功能来转录您的语音指令";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -330,8 +395,11 @@
 				DEVELOPMENT_TEAM = 73VA8W4WNH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIChat/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AIChat;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "我们需要访问您的麦克风来进行语音识别";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "我们使用语音识别功能来转录您的语音指令";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
